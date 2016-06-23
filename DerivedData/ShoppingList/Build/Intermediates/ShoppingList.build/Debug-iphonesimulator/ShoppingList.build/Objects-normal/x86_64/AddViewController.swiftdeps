@@ -1,0 +1,296 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddViewController"
+provides-nominal:
+- "C12ShoppingList17AddViewController"
+provides-member:
+- ["C12ShoppingList17AddViewController", ""]
+provides-dynamic-lookup:
+- "prepareForSegue"
+- "viewWillAppear"
+- "itemToAddTextField"
+- "toAdd"
+- "cancelButton"
+depends-top-level:
+- "StringLiteralType"
+- "UIStoryboardSegue"
+- "UIButton"
+- "UIViewController"
+- "AddViewController"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "Bool"
+- "String"
+- "UITextField"
+depends-member:
+- ["C12ShoppingList17AddViewController", "AnyObject"]
+- ["C12ShoppingList17AddViewController", "Bool"]
+- ["C12ShoppingList17AddViewController", "String"]
+- ["C12ShoppingList17AddViewController", "UIButton"]
+- ["C12ShoppingList17AddViewController", "UIStoryboardSegue"]
+- ["C12ShoppingList17AddViewController", "UITextField"]
+- ["C12ShoppingList17AddViewController", "cancelButton"]
+- ["C12ShoppingList17AddViewController", "deinit"]
+- !private ["C12ShoppingList17AddViewController", "dismissViewControllerAnimated"]
+- ["C12ShoppingList17AddViewController", "init"]
+- ["C12ShoppingList17AddViewController", "itemToAddTextField"]
+- !private ["C12ShoppingList17AddViewController", "navigationItem"]
+- ["C12ShoppingList17AddViewController", "prepareForSegue"]
+- ["C12ShoppingList17AddViewController", "toAdd"]
+- ["C12ShoppingList17AddViewController", "viewWillAppear"]
+- ["Ps9AnyObject", "cancelButton"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "itemToAddTextField"]
+- !private ["Ps9AnyObject", "navigationItem"]
+- ["Ps9AnyObject", "prepareForSegue"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "toAdd"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "cancelButton"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "itemToAddTextField"]
+- !private ["Ps11CVarArgType", "navigationItem"]
+- ["Ps11CVarArgType", "prepareForSegue"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", "toAdd"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "cancelButton"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "itemToAddTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- ["Ps28CustomDebugStringConvertible", "prepareForSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "toAdd"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Some"]
+- ["Ps23CustomStringConvertible", "cancelButton"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "itemToAddTextField"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
+- ["Ps23CustomStringConvertible", "prepareForSegue"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "toAdd"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "cancelButton"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "itemToAddTextField"]
+- !private ["Ps9Equatable", "navigationItem"]
+- ["Ps9Equatable", "prepareForSegue"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "toAdd"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "cancelButton"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "itemToAddTextField"]
+- !private ["Ps8Hashable", "navigationItem"]
+- ["Ps8Hashable", "prepareForSegue"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "toAdd"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- ["SQ", "Some"]
+- ["PSo8NSCoding", "cancelButton"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "itemToAddTextField"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "toAdd"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "cancelButton"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "itemToAddTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- ["PSo26NSExtensionRequestHandling", "toAdd"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "cancelButton"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "itemToAddTextField"]
+- !private ["CSo8NSObject", "navigationItem"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "toAdd"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "cancelButton"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "itemToAddTextField"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "toAdd"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "cancelButton"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "itemToAddTextField"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "toAdd"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "cancelButton"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "itemToAddTextField"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- ["PSo18UIContentContainer", "toAdd"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "cancelButton"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "itemToAddTextField"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "toAdd"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo16UINavigationItem", "title"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "cancelButton"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "itemToAddTextField"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "toAdd"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "cancelButton"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "itemToAddTextField"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- ["PSo16UIStateRestoring", "toAdd"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "cancelButton"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "itemToAddTextField"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "toAdd"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "cancelButton"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "itemToAddTextField"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- ["CSo16UIViewController", "toAdd"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- ["Ps21_ObjectiveCBridgeable", "Some"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "C12ShoppingList17AddViewController"
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "3bbd34c9b06e4095513b151ce9fc7743"

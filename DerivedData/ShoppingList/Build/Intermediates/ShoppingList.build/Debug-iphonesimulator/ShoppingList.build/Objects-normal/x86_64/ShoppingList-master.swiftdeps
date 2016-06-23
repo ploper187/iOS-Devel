@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "d2a974e78f799afeabd949def958975a"
+build_time: [520032368, 34325000]
+inputs:
+  "/Users/adamthk/Dropbox/Swift & iOS/ShoppingList/ShoppingList/AppDelegate.swift": [519757415, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/ShoppingListKeeper/ShoppingListKeeper/ShoppingList.swift": [520032368, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/ShoppingList/ShoppingList/MainViewController.swift": [520032367, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/ShoppingList/ShoppingList/AddViewController.swift": [520029457, 0]
