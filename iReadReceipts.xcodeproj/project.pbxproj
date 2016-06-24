@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBA91D551D1DC1CA000806E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D541D1DC1CA000806E6 /* AppDelegate.swift */; };
+		DBA91D571D1DC1CA000806E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D561D1DC1CA000806E6 /* ViewController.swift */; };
+		DBA91D5A1D1DC1CA000806E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA91D581D1DC1CA000806E6 /* Main.storyboard */; };
+		DBA91D5C1D1DC1CA000806E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA91D5B1D1DC1CA000806E6 /* Assets.xcassets */; };
+		DBA91D5F1D1DC1CA000806E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA91D5D1D1DC1CA000806E6 /* LaunchScreen.storyboard */; };
+		DBA91D6A1D1DC1CA000806E6 /* iReadReceiptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D691D1DC1CA000806E6 /* iReadReceiptsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBA91D661D1DC1CA000806E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBA91D491D1DC1CA000806E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA91D501D1DC1CA000806E6;
+			remoteInfo = iReadReceipts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBA91D511D1DC1CA000806E6 /* iReadReceipts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iReadReceipts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA91D541D1DC1CA000806E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBA91D561D1DC1CA000806E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBA91D591D1DC1CA000806E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA91D5B1D1DC1CA000806E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBA91D5E1D1DC1CA000806E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBA91D601D1DC1CA000806E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA91D651D1DC1CA000806E6 /* iReadReceiptsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iReadReceiptsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA91D691D1DC1CA000806E6 /* iReadReceiptsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iReadReceiptsTests.swift; sourceTree = "<group>"; };
+		DBA91D6B1D1DC1CA000806E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA91D4E1D1DC1CA000806E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA91D621D1DC1CA000806E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBA91D481D1DC1CA000806E6 = {
+			isa = PBXGroup;
+			children = (
+				DBA91D531D1DC1CA000806E6 /* iReadReceipts */,
+				DBA91D681D1DC1CA000806E6 /* iReadReceiptsTests */,
+				DBA91D521D1DC1CA000806E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA91D521D1DC1CA000806E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA91D511D1DC1CA000806E6 /* iReadReceipts.app */,
+				DBA91D651D1DC1CA000806E6 /* iReadReceiptsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA91D531D1DC1CA000806E6 /* iReadReceipts */ = {
+			isa = PBXGroup;
+			children = (
+				DBA91D541D1DC1CA000806E6 /* AppDelegate.swift */,
+				DBA91D561D1DC1CA000806E6 /* ViewController.swift */,
+				DBA91D581D1DC1CA000806E6 /* Main.storyboard */,
+				DBA91D5B1D1DC1CA000806E6 /* Assets.xcassets */,
+				DBA91D5D1D1DC1CA000806E6 /* LaunchScreen.storyboard */,
+				DBA91D601D1DC1CA000806E6 /* Info.plist */,
+			);
+			path = iReadReceipts;
+			sourceTree = "<group>";
+		};
+		DBA91D681D1DC1CA000806E6 /* iReadReceiptsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBA91D691D1DC1CA000806E6 /* iReadReceiptsTests.swift */,
+				DBA91D6B1D1DC1CA000806E6 /* Info.plist */,
+			);
+			path = iReadReceiptsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA91D501D1DC1CA000806E6 /* iReadReceipts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA91D6E1D1DC1CA000806E6 /* Build configuration list for PBXNativeTarget "iReadReceipts" */;
+			buildPhases = (
+				DBA91D4D1D1DC1CA000806E6 /* Sources */,
+				DBA91D4E1D1DC1CA000806E6 /* Frameworks */,
+				DBA91D4F1D1DC1CA000806E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iReadReceipts;
+			productName = iReadReceipts;
+			productReference = DBA91D511D1DC1CA000806E6 /* iReadReceipts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBA91D641D1DC1CA000806E6 /* iReadReceiptsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA91D711D1DC1CA000806E6 /* Build configuration list for PBXNativeTarget "iReadReceiptsTests" */;
+			buildPhases = (
+				DBA91D611D1DC1CA000806E6 /* Sources */,
+				DBA91D621D1DC1CA000806E6 /* Frameworks */,
+				DBA91D631D1DC1CA000806E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBA91D671D1DC1CA000806E6 /* PBXTargetDependency */,
+			);
+			name = iReadReceiptsTests;
+			productName = iReadReceiptsTests;
+			productReference = DBA91D651D1DC1CA000806E6 /* iReadReceiptsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA91D491D1DC1CA000806E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adam Kuniholm";
+				TargetAttributes = {
+					DBA91D501D1DC1CA000806E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DBA91D641D1DC1CA000806E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DBA91D501D1DC1CA000806E6;
+					};
+				};
+			};
+			buildConfigurationList = DBA91D4C1D1DC1CA000806E6 /* Build configuration list for PBXProject "iReadReceipts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA91D481D1DC1CA000806E6;
+			productRefGroup = DBA91D521D1DC1CA000806E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA91D501D1DC1CA000806E6 /* iReadReceipts */,
+				DBA91D641D1DC1CA000806E6 /* iReadReceiptsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA91D4F1D1DC1CA000806E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA91D5F1D1DC1CA000806E6 /* LaunchScreen.storyboard in Resources */,
+				DBA91D5C1D1DC1CA000806E6 /* Assets.xcassets in Resources */,
+				DBA91D5A1D1DC1CA000806E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA91D631D1DC1CA000806E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA91D4D1D1DC1CA000806E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA91D571D1DC1CA000806E6 /* ViewController.swift in Sources */,
+				DBA91D551D1DC1CA000806E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA91D611D1DC1CA000806E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA91D6A1D1DC1CA000806E6 /* iReadReceiptsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBA91D671D1DC1CA000806E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBA91D501D1DC1CA000806E6 /* iReadReceipts */;
+			targetProxy = DBA91D661D1DC1CA000806E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBA91D581D1DC1CA000806E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA91D591D1DC1CA000806E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBA91D5D1D1DC1CA000806E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA91D5E1D1DC1CA000806E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBA91D6C1D1DC1CA000806E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBA91D6D1D1DC1CA000806E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA91D6F1D1DC1CA000806E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iReadReceipts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam-Kuniholm.iReadReceipts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBA91D701D1DC1CA000806E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iReadReceipts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam-Kuniholm.iReadReceipts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBA91D721D1DC1CA000806E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iReadReceiptsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam-Kuniholm.iReadReceiptsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iReadReceipts.app/iReadReceipts";
+			};
+			name = Debug;
+		};
+		DBA91D731D1DC1CA000806E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iReadReceiptsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam-Kuniholm.iReadReceiptsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iReadReceipts.app/iReadReceipts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA91D4C1D1DC1CA000806E6 /* Build configuration list for PBXProject "iReadReceipts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA91D6C1D1DC1CA000806E6 /* Debug */,
+				DBA91D6D1D1DC1CA000806E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA91D6E1D1DC1CA000806E6 /* Build configuration list for PBXNativeTarget "iReadReceipts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA91D6F1D1DC1CA000806E6 /* Debug */,
+				DBA91D701D1DC1CA000806E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBA91D711D1DC1CA000806E6 /* Build configuration list for PBXNativeTarget "iReadReceiptsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA91D721D1DC1CA000806E6 /* Debug */,
+				DBA91D731D1DC1CA000806E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBA91D491D1DC1CA000806E6 /* Project object */;
+}
