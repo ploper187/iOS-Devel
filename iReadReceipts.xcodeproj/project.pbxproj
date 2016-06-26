@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DBA91D551D1DC1CA000806E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D541D1DC1CA000806E6 /* AppDelegate.swift */; };
-		DBA91D571D1DC1CA000806E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D561D1DC1CA000806E6 /* ViewController.swift */; };
 		DBA91D5A1D1DC1CA000806E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA91D581D1DC1CA000806E6 /* Main.storyboard */; };
 		DBA91D5C1D1DC1CA000806E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA91D5B1D1DC1CA000806E6 /* Assets.xcassets */; };
 		DBA91D5F1D1DC1CA000806E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA91D5D1D1DC1CA000806E6 /* LaunchScreen.storyboard */; };
 		DBA91D6A1D1DC1CA000806E6 /* iReadReceiptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D691D1DC1CA000806E6 /* iReadReceiptsTests.swift */; };
+		DBA91D751D1DC2A5000806E6 /* ReceiptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D741D1DC2A5000806E6 /* ReceiptTableViewController.swift */; };
+		DBA91D771D1DC32E000806E6 /* AddReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D761D1DC32E000806E6 /* AddReceiptViewController.swift */; };
+		DBA91D791D1DC447000806E6 /* ReceiptItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D781D1DC447000806E6 /* ReceiptItemCell.swift */; };
+		DBA91D7B1D1DC704000806E6 /* ReceiptItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D7A1D1DC704000806E6 /* ReceiptItem.swift */; };
+		DBA91D7D1D1F23E9000806E6 /* ManualAddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA91D7C1D1F23E9000806E6 /* ManualAddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +32,6 @@
 /* Begin PBXFileReference section */
 		DBA91D511D1DC1CA000806E6 /* iReadReceipts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iReadReceipts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA91D541D1DC1CA000806E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBA91D561D1DC1CA000806E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBA91D591D1DC1CA000806E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBA91D5B1D1DC1CA000806E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBA91D5E1D1DC1CA000806E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		DBA91D651D1DC1CA000806E6 /* iReadReceiptsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iReadReceiptsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA91D691D1DC1CA000806E6 /* iReadReceiptsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iReadReceiptsTests.swift; sourceTree = "<group>"; };
 		DBA91D6B1D1DC1CA000806E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA91D741D1DC2A5000806E6 /* ReceiptTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewController.swift; sourceTree = "<group>"; };
+		DBA91D761D1DC32E000806E6 /* AddReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReceiptViewController.swift; sourceTree = "<group>"; };
+		DBA91D781D1DC447000806E6 /* ReceiptItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptItemCell.swift; sourceTree = "<group>"; };
+		DBA91D7A1D1DC704000806E6 /* ReceiptItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptItem.swift; sourceTree = "<group>"; };
+		DBA91D7C1D1F23E9000806E6 /* ManualAddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualAddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				DBA91D541D1DC1CA000806E6 /* AppDelegate.swift */,
-				DBA91D561D1DC1CA000806E6 /* ViewController.swift */,
 				DBA91D581D1DC1CA000806E6 /* Main.storyboard */,
+				DBA91D781D1DC447000806E6 /* ReceiptItemCell.swift */,
+				DBA91D7A1D1DC704000806E6 /* ReceiptItem.swift */,
+				DBA91D761D1DC32E000806E6 /* AddReceiptViewController.swift */,
+				DBA91D7C1D1F23E9000806E6 /* ManualAddItemViewController.swift */,
+				DBA91D741D1DC2A5000806E6 /* ReceiptTableViewController.swift */,
 				DBA91D5B1D1DC1CA000806E6 /* Assets.xcassets */,
 				DBA91D5D1D1DC1CA000806E6 /* LaunchScreen.storyboard */,
 				DBA91D601D1DC1CA000806E6 /* Info.plist */,
@@ -197,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA91D571D1DC1CA000806E6 /* ViewController.swift in Sources */,
+				DBA91D751D1DC2A5000806E6 /* ReceiptTableViewController.swift in Sources */,
+				DBA91D771D1DC32E000806E6 /* AddReceiptViewController.swift in Sources */,
 				DBA91D551D1DC1CA000806E6 /* AppDelegate.swift in Sources */,
+				DBA91D7B1D1DC704000806E6 /* ReceiptItem.swift in Sources */,
+				DBA91D791D1DC447000806E6 /* ReceiptItemCell.swift in Sources */,
+				DBA91D7D1D1F23E9000806E6 /* ManualAddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
