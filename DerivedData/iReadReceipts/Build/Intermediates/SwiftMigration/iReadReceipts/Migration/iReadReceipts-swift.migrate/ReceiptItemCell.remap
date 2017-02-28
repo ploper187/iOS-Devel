@@ -1,0 +1,143 @@
+[
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 180,
+  "remove": 7,
+  "text": "// FIXME: comparison operators with optionals were removed from the Swift Standard Libary.\n// Consider refactoring the code to use the non-optional operators.\nfileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {\n  switch (lhs, rhs) {\n  case let (l?, r?):\n    return l < r\n  case (nil, _?):\n    return true\n  default:\n    return false\n  }\n}\n\n// FIXME: comparison operators with optionals were removed from the Swift Standard Libary.\n// Consider refactoring the code to use the non-optional operators.\nfileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {\n  switch (lhs, rhs) {\n  case let (l?, r?):\n    return l > r\n  default:\n    return rhs < lhs\n  }\n}\n\n\nclass ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 2442,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 2618,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 2731,
+  "remove": 1,
+  "text": "d",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 2751,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 2831,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 2925,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 2991,
+  "remove": 1,
+  "text": "d",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3065,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3161,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3212,
+  "remove": 1,
+  "text": "d",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3295,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3386,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3418,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3449,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3510,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3542,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3573,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3601,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3631,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 3659,
+  "remove": 2,
+  "text": "isHi",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 4097,
+  "remove": 3,
+  "text": "cgC",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 4208,
+  "remove": 5,
+  "text": "(width: ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift",
+  "offset": 4218,
+  "text": "height: ",
+ }
+]

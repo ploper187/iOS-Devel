@@ -1,0 +1,44 @@
+[
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 284,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 358,
+  "remove": 8,
+  "text": "UIApplicationLaunchOptionsKey",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 370,
+  "remove": 7,
+  "text": "y",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 513,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 1019,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 1445,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 1668,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift",
+  "offset": 1926,
+  "text": "_ ",
+ }
+]

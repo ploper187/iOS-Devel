@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "3cac7b575889074028789ce4ae01f3dd"
+build_time: [541610147, 120197000]
+inputs:
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptTableViewController.swift": [522459575, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift": [521143701, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsViewController.swift": [521144757, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift": [520111818, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItem.swift": [520293879, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift": [522441074, 0]

@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "e38a1613eebf63d78e8165d80bf12c24"
+build_time: [520528433, 214218000]
+inputs:
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptTableViewController.swift": [520528432, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AddReceiptViewController.swift": [520112253, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/AppDelegate.swift": [520111818, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItem.swift": [520293879, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ReceiptItemCell.swift": [520456194, 0]
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/ManualAddItemViewController.swift": [520291054, 0]

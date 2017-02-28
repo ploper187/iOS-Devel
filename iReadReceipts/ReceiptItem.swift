@@ -9,19 +9,16 @@
 import Foundation
 
 class ReceiptItem : Equatable {
-  let name : String
-  let price : Double
+  var name : String
+  var price : Double
   var SKU : String?
   var fromStore : Store?
-  var boughtOnDate : NSDate?
+  var boughtOnDate : Date?
   
   init(name : String, price : Double){
     self.name = name
     self.price = price
   }
-  
-  
-
 
 }
 

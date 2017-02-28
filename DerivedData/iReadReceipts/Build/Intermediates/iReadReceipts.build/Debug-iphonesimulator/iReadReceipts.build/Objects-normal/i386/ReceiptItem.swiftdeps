@@ -1,0 +1,62 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReceiptItem"
+- "=="
+- "Store"
+provides-nominal:
+- "C13iReadReceipts11ReceiptItem"
+- "C13iReadReceipts5Store"
+provides-member:
+- ["C13iReadReceipts11ReceiptItem", ""]
+- ["C13iReadReceipts5Store", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Double"
+- "String"
+- !private "&&"
+- "Equatable"
+- "ReceiptItem"
+- "Store"
+- "Bool"
+- "StringLiteralType"
+- "NSDate"
+- "=="
+depends-member:
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "price"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "price"]
+- ["Ps9Equatable", ""]
+- ["C13iReadReceipts11ReceiptItem", "Double"]
+- ["C13iReadReceipts11ReceiptItem", "NSDate"]
+- ["C13iReadReceipts11ReceiptItem", "SKU"]
+- ["C13iReadReceipts11ReceiptItem", "Store"]
+- ["C13iReadReceipts11ReceiptItem", "String"]
+- ["C13iReadReceipts11ReceiptItem", "boughtOnDate"]
+- ["C13iReadReceipts11ReceiptItem", "deinit"]
+- ["C13iReadReceipts11ReceiptItem", "fromStore"]
+- ["C13iReadReceipts11ReceiptItem", "init"]
+- ["C13iReadReceipts11ReceiptItem", "name"]
+- ["C13iReadReceipts11ReceiptItem", "price"]
+- ["C13iReadReceipts5Store", "String"]
+- ["C13iReadReceipts5Store", "deinit"]
+- ["C13iReadReceipts5Store", "init"]
+- ["C13iReadReceipts5Store", "location"]
+- ["C13iReadReceipts5Store", "name"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps9Equatable"
+- "C13iReadReceipts11ReceiptItem"
+- "C13iReadReceipts5Store"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+interface-hash: "35840dd049780bbd472b8cce5b529da2"

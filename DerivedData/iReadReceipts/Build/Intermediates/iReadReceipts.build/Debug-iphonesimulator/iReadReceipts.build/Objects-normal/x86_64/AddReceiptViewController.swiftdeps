@@ -1,0 +1,174 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddReceiptViewController"
+provides-nominal:
+- "C13iReadReceipts24AddReceiptViewController"
+provides-member:
+- ["C13iReadReceipts24AddReceiptViewController", ""]
+provides-dynamic-lookup:
+- "image"
+- "cancelButton"
+depends-top-level:
+- "UIViewController"
+- !private "BooleanLiteralType"
+- "AddReceiptViewController"
+- "UIBarButtonItem"
+- "UIImage"
+depends-member:
+- ["C13iReadReceipts24AddReceiptViewController", "UIBarButtonItem"]
+- ["C13iReadReceipts24AddReceiptViewController", "UIImage"]
+- ["C13iReadReceipts24AddReceiptViewController", "cancelButton"]
+- ["C13iReadReceipts24AddReceiptViewController", "deinit"]
+- !private ["C13iReadReceipts24AddReceiptViewController", "dismissViewControllerAnimated"]
+- ["C13iReadReceipts24AddReceiptViewController", "image"]
+- ["C13iReadReceipts24AddReceiptViewController", "init"]
+- ["Ps9AnyObject", "UIImage"]
+- ["Ps9AnyObject", "cancelButton"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "UIImage"]
+- ["Ps11CVarArgType", "cancelButton"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "UIImage"]
+- ["Ps28CustomDebugStringConvertible", "cancelButton"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "UIImage"]
+- ["Ps23CustomStringConvertible", "cancelButton"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "UIImage"]
+- ["Ps9Equatable", "cancelButton"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "UIImage"]
+- ["Ps8Hashable", "cancelButton"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "cancelButton"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "UIImage"]
+- ["PSo26NSExtensionRequestHandling", "cancelButton"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "image"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "UIBarButtonItem"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "cancelButton"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "cancelButton"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "cancelButton"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "UIImage"]
+- ["PSo18UIContentContainer", "cancelButton"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "image"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "cancelButton"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo7UIImage", "init"]
+- ["CSo11UIResponder", "UIBarButtonItem"]
+- ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "cancelButton"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["PSo16UIStateRestoring", "UIImage"]
+- ["PSo16UIStateRestoring", "cancelButton"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "image"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "cancelButton"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "UIBarButtonItem"]
+- ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "cancelButton"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "image"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", ""]
+- ["Ps24_ImageLiteralConvertible", "init"]
+depends-nominal:
+- "C13iReadReceipts24AddReceiptViewController"
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "PSo29UIAccessibilityIdentification"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "Ps24_ImageLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/iReadReceipts-Bridging-Header.h"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/TesseractOCR.h"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/G8Tesseract.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/G8Constants.h"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/G8TesseractDelegate.h"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/G8RecognizedBlock.h"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/G8TesseractParameters.h"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/G8RecognitionOperation.h"
+- "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/TesseractOCR.framework/Headers/UIImage+G8Filters.h"
+interface-hash: "0d144fdc93ca4db359ef8ac5a747cd01"

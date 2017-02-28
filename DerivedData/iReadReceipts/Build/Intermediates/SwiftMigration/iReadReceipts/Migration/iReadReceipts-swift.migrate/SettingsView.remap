@@ -1,0 +1,99 @@
+[
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 197,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1252,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1265,
+  "remove": 9,
+  "text": "n",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1330,
+  "text": "?",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1538,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1617,
+  "remove": 1,
+  "text": "e",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1695,
+  "remove": 7,
+  "text": "(in: ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1716,
+  "remove": 21,
+  "text": " ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1759,
+  "remove": 2,
+  "text": ".contains(",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1797,
+  "remove": 21,
+  "text": " ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1841,
+  "remove": 2,
+  "text": ".contains(",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1879,
+  "remove": 21,
+  "text": " ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1922,
+  "remove": 2,
+  "text": ".contains(",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 1960,
+  "remove": 21,
+  "text": " ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 2004,
+  "remove": 2,
+  "text": ".contains(",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 2173,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceipts/SettingsView.swift",
+  "offset": 2303,
+  "text": "_ ",
+ }
+]

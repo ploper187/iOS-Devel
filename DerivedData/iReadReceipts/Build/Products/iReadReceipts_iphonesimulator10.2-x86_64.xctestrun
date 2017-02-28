@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iReadReceiptsTests</key>
+	<dict>
+		<key>BundleIdentifiersForCrashReportEmphasis</key>
+		<array>
+			<string>Adam-Kuniholm.iReadReceiptsTests</string>
+			<string>Adam-Kuniholm.iReadReceipts</string>
+		</array>
+		<key>CommandLineArguments</key>
+		<array/>
+		<key>DependentProductPaths</key>
+		<array>
+			<string>__TESTROOT__/Debug-iphonesimulator/iReadReceipts.app/PlugIns/iReadReceiptsTests.xctest</string>
+			<string>__TESTROOT__/Debug-iphonesimulator/iReadReceipts.app</string>
+		</array>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>DYLD_FRAMEWORK_PATH</key>
+			<string>/Users/adamthk/Dropbox/Swift &amp; iOS/iReadReceipts/DerivedData/iReadReceipts/Build/Products/Debug-iphonesimulator</string>
+			<key>DYLD_LIBRARY_PATH</key>
+			<string>/Users/adamthk/Dropbox/Swift &amp; iOS/iReadReceipts/DerivedData/iReadReceipts/Build/Products/Debug-iphonesimulator</string>
+			<key>OS_ACTIVITY_DT_MODE</key>
+			<string>YES</string>
+			<key>__XCODE_BUILT_PRODUCTS_DIR_PATHS</key>
+			<string>/Users/adamthk/Dropbox/Swift &amp; iOS/iReadReceipts/DerivedData/iReadReceipts/Build/Products/Debug-iphonesimulator</string>
+			<key>__XPC_DYLD_FRAMEWORK_PATH</key>
+			<string>/Users/adamthk/Dropbox/Swift &amp; iOS/iReadReceipts/DerivedData/iReadReceipts/Build/Products/Debug-iphonesimulator</string>
+			<key>__XPC_DYLD_LIBRARY_PATH</key>
+			<string>/Users/adamthk/Dropbox/Swift &amp; iOS/iReadReceipts/DerivedData/iReadReceipts/Build/Products/Debug-iphonesimulator</string>
+		</dict>
+		<key>IsAppHostedTestBundle</key>
+		<true/>
+		<key>ProductModuleName</key>
+		<string>iReadReceiptsTests</string>
+		<key>TestBundlePath</key>
+		<string>__TESTHOST__/PlugIns/iReadReceiptsTests.xctest</string>
+		<key>TestHostBundleIdentifier</key>
+		<string>Adam-Kuniholm.iReadReceipts</string>
+		<key>TestHostPath</key>
+		<string>__TESTROOT__/Debug-iphonesimulator/iReadReceipts.app</string>
+		<key>TestingEnvironmentVariables</key>
+		<dict>
+			<key>DTX_CONNECTION_SERVICES_PATH</key>
+			<string>__PLATFORMS__/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework</string>
+			<key>DYLD_FRAMEWORK_PATH</key>
+			<string>__TESTROOT__/Debug-iphonesimulator:__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/Frameworks</string>
+			<key>DYLD_INSERT_LIBRARIES</key>
+			<string>__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection</string>
+			<key>DYLD_LIBRARY_PATH</key>
+			<string>__TESTROOT__/Debug-iphonesimulator:__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/Frameworks</string>
+			<key>XCInjectBundleInto</key>
+			<string>__TESTHOST__/iReadReceipts</string>
+			<key>XCODE_DBG_XPC_EXCLUSIONS</key>
+			<string>com.apple.dt.xctestSymbolicator</string>
+		</dict>
+		<key>ToolchainsSettingValue</key>
+		<array/>
+	</dict>
+</dict>
+</plist>

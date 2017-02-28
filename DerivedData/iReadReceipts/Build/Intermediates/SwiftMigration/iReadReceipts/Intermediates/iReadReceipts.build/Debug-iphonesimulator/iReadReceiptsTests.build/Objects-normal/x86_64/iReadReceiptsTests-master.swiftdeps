@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "9cb6e653f19db76ba7baf33a423426c9"
+build_time: [541610159, 70378000]
+inputs:
+  "/Users/adamthk/Dropbox/Swift & iOS/iReadReceipts/iReadReceiptsTests/iReadReceiptsTests.swift": [520111818, 0]

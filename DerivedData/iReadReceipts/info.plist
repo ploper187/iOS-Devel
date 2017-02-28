@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LastAccessedDate</key>
+	<date>2017-02-28T15:15:47Z</date>
 	<key>WorkspacePath</key>
 	<string>/Users/adamthk/Dropbox/Swift &amp; iOS/iReadReceipts/iReadReceipts.xcodeproj</string>
 </dict>
