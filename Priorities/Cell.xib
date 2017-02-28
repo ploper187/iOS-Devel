@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReusableTaskCell" customModule="Priorities" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReusableTaskCell" rowHeight="160" id="0Yd-D2-Gwt" customClass="ReusableTaskCell" customModule="Priorities" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Yd-D2-Gwt" id="5Uz-ar-8J8">
+                <frame key="frameInset" width="320" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQX-LU-edE">
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <color key="textColor" red="0.51700599749999998" green="0.51700599749999998" blue="0.51700599749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="-1" height="-1"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCz-rG-rOf">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="34" id="6LW-Cc-vVD"/>
+                            <constraint firstAttribute="height" constant="34" id="lL9-d9-G5m"/>
+                        </constraints>
+                        <state key="normal" image="Tick.png"/>
+                        <connections>
+                            <action selector="topButtonHit:" destination="0Yd-D2-Gwt" eventType="touchUpInside" id="mVC-Q7-LIm"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suf-XS-urC">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="gg1-WH-MwF"/>
+                            <constraint firstAttribute="width" constant="34" id="twn-GS-14q"/>
+                        </constraints>
+                        <state key="normal" image="drag_options_2.png"/>
+                        <connections>
+                            <action selector="bottomButtonHit:" destination="0Yd-D2-Gwt" eventType="touchUpInside" id="G5J-So-WIm"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRf-2f-oBq">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="6Ru-bi-grh"/>
+                            <constraint firstAttribute="width" constant="34" id="SCM-J7-48G"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="Location.png"/>
+                        <connections>
+                            <action selector="midButtonHit:" destination="0Yd-D2-Gwt" eventType="touchUpInside" id="Pqb-nA-uUC"/>
+                        </connections>
+                    </button>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0Q-wn-EdK">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="7Bo-o4-vQK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="-1" height="-1"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Suf-XS-urC" secondAttribute="trailing" constant="8" id="3jn-SV-EfG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Suf-XS-urC" secondAttribute="bottom" constant="8" id="AVd-IW-KLS"/>
+                    <constraint firstItem="HRf-2f-oBq" firstAttribute="centerY" secondItem="5Uz-ar-8J8" secondAttribute="centerY" id="BMN-Bs-fwB"/>
+                    <constraint firstItem="f0Q-wn-EdK" firstAttribute="leading" secondItem="VQX-LU-edE" secondAttribute="leading" id="C9L-rn-rEW"/>
+                    <constraint firstItem="UCz-rG-rOf" firstAttribute="bottom" secondItem="VQX-LU-edE" secondAttribute="bottom" id="Dy9-kd-wHM"/>
+                    <constraint firstItem="UCz-rG-rOf" firstAttribute="top" secondItem="5Uz-ar-8J8" secondAttribute="topMargin" constant="8" id="EOh-0s-Fwt"/>
+                    <constraint firstItem="VQX-LU-edE" firstAttribute="width" secondItem="5Uz-ar-8J8" secondAttribute="width" multiplier="0.75" id="Hba-ta-1xf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="f0Q-wn-EdK" secondAttribute="bottom" constant="8" id="Mdb-Ha-Vc3"/>
+                    <constraint firstItem="VQX-LU-edE" firstAttribute="top" secondItem="5Uz-ar-8J8" secondAttribute="topMargin" constant="8" id="N2L-IT-z88"/>
+                    <constraint firstItem="UCz-rG-rOf" firstAttribute="top" secondItem="VQX-LU-edE" secondAttribute="top" id="S2a-fS-mwC"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="HRf-2f-oBq" secondAttribute="trailing" constant="8" id="lP1-7c-Tpb"/>
+                    <constraint firstItem="VQX-LU-edE" firstAttribute="leading" secondItem="5Uz-ar-8J8" secondAttribute="leadingMargin" constant="8" id="obk-7y-WW8"/>
+                    <constraint firstItem="f0Q-wn-EdK" firstAttribute="width" secondItem="5Uz-ar-8J8" secondAttribute="width" multiplier="0.75" id="s37-Ly-a1N"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="UCz-rG-rOf" secondAttribute="trailing" constant="8" id="tmG-EN-4XF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <gestureRecognizers/>
+            <connections>
+                <outlet property="bottomButton" destination="Suf-XS-urC" id="Rip-he-vHq"/>
+                <outlet property="locationLabel" destination="f0Q-wn-EdK" id="sML-NX-cBq"/>
+                <outlet property="midButton" destination="HRf-2f-oBq" id="QQS-Pf-dT5"/>
+                <outlet property="nameLabel" destination="VQX-LU-edE" id="eGG-sS-gMb"/>
+                <outlet property="topButton" destination="UCz-rG-rOf" id="Uib-gY-rFR"/>
+            </connections>
+            <point key="canvasLocation" x="480" y="394"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Location.png" width="480" height="480"/>
+        <image name="Tick.png" width="480" height="480"/>
+        <image name="drag_options_2.png" width="640" height="640"/>
+    </resources>
+</document>
